@@ -1,0 +1,37 @@
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 20px;
+  padding: 20px;
+  color: #333;
+}
+
+nav {
+  background-color: #003366;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1, h2 {
+  color: #003366;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.unique-layout {
+  display: flex;
+  gap: 20px;
+}
