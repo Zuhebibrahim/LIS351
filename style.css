@@ -39,6 +39,11 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .about-intro {
   font-size: 1.1rem;
   line-height: 1.6;
@@ -48,7 +53,7 @@ h1, h2 {
 
 .section-label,
 .engagement-label {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #007BFF;
   text-align: left;
@@ -60,6 +65,21 @@ h1, h2 {
 .about-details {
   max-width: 800px;
   margin: 0 auto;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 1.5em;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 800px;
+}
+
+ul li {
+  margin: 0.5em 0;
   text-align: left;
 }
 
@@ -85,6 +105,14 @@ h1, h2 {
 .about-card p {
   margin-bottom: 15px;
   line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
 }
 
 .fixed-image {
