@@ -51,7 +51,7 @@ h1, h2 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
+  gap: 40px;
   margin: 30px auto;
   max-width: 1000px;
 }
@@ -86,11 +86,11 @@ li {
   border-radius: 8px;
 }
 
-.side-image {
-  width: 300px;   
-  max-width: 100%;
+.about-image img {
+  width: 300px;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
 
 .about-card {
