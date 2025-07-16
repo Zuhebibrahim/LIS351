@@ -42,7 +42,12 @@ img {
 ul {
   list-style-position: inside;
   padding: 0;
-  text-align: center; 
+  text-align: center;
+}
+
+ul li {
+  display: list-item;
+  text-align: center;
 }
 
 a {
