@@ -92,6 +92,7 @@ li {
   justify-content: center;
   align-items: flex-start;
   gap: 40px;
+  margin-top: 30px;
 }
 
 .about-card {
@@ -109,6 +110,8 @@ li {
 }
 
 .about-image img {
-  max-width: 100%;
-  border-radius: 8px;
+  max-width: 300px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
 }
