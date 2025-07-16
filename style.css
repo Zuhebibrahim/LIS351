@@ -135,11 +135,3 @@ li {
   text-align: left;
   font-size: 1rem;
 }
-
-.engagement-content ul {
-  list-style: disc inside;
-  display: block;
-  margin: 20px auto;
-  padding-left: 0;
-  text-align: left;
-}
