@@ -35,7 +35,6 @@ img {
 
 .home-portrait {
   width: 50%;
-  height: auto;
   margin-top: 20px;
 }
 
@@ -46,7 +45,7 @@ ul {
 }
 
 ul li {
-  display: list-item;
+  margin: 10px 0;
   text-align: center;
 }
 
@@ -65,12 +64,4 @@ a {
   color: #4b0082;
   text-decoration: none;
   font-weight: bold;
-}
-
-.unique-layout {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
 }
