@@ -42,6 +42,12 @@ img {
 ul {
   list-style-position: inside;
   padding: 0;
+  text-align: center; 
+}
+
+a {
+  display: inline-block;
+  margin: 10px 0;
 }
 
 .linkedin-link {
