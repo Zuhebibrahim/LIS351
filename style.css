@@ -122,18 +122,19 @@ li {
   background-color: #808080;
 }
 
-.centered-list {
+.contact-list {
   display: flex;
   justify-content: center;
-  gap: 20px;
-  padding-left: 0;
+  gap: 30px;
+  list-style: disc inside;
+  padding: 0;
   margin: 20px auto;
 }
 
-.centered-list li {
-  list-style: disc inside;
-  margin: 0
-  padding: 0 5px;
+.contact-list li {
+  margin: 0;
+  font-size: 1rem;
+  text-align: left;
 }
 
 .resume-list {
