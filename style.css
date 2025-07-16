@@ -6,8 +6,8 @@
 
 body {
   font-family: Verdana, sans-serif;
-  background-color: #f0f2f5;
-  color: #333;
+  background-color: #D3D3D3; 
+  color: #000000;
   text-align: center;
   padding: 20px;
 }
@@ -18,7 +18,7 @@ nav {
 }
 
 nav a {
-  color: #FFFFFF;
+  color: #FFFFFF; 
   margin: 0 20px;
   text-decoration: none;
   font-weight: bold;
@@ -39,16 +39,52 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
-ul, dl {
-  list-style-position: inside;
-  padding: 0;
+.about-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.section-label,
+.engagement-label {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #007BFF;
+  text-align: left;
+  max-width: 800px;
+  margin: 20px auto 10px;
+}
+
+.engagement-content,
+.about-details {
+  max-width: 800px;
   margin: 0 auto;
-  display: inline-block;
   text-align: left;
 }
 
-li {
-  margin: 10px 0;
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.about-card {
+  background-color: #808080; 
+  color: #FFFFFF; 
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 350px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-card p {
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .fixed-image {
@@ -57,6 +93,7 @@ li {
   display: block;
   margin: 30px auto;
   object-fit: cover;
+  border-radius: 8px;
 }
 
 .download-link {
@@ -70,48 +107,5 @@ li {
 }
 
 .download-link:hover {
-  background-color: #005fcc;
-}
-
-.about-details {
-  margin-top: 20px;
-  text-align: left;
-  display: inline-block;
-}
-
-.about-intro {
-  max-width: 700px;
-  margin: 0 auto 30px;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.about-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 40px;
-  margin-top: 30px;
-}
-
-.about-card {
-  background-color: #D3D3D3;
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 350px;
-  text-align: left;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.about-card p {
-  margin-bottom: 15px;
-  line-height: 1.5;
-}
-
-.about-image img {
-  max-width: 300px;
-  border-radius: 10px;
-  display: block;
-  margin: 0 auto;
+  background-color: #808080; 
 }
