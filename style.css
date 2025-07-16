@@ -39,6 +39,10 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
+h2, dt {
+  font-family: Georgia, serif;
+}
+
 .about-intro {
   font-size: 1.1rem;
   line-height: 1.6;
