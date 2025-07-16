@@ -1,14 +1,16 @@
 body {
   font-family: Verdana, sans-serif;
   background-color: #f0f2f5;
-  margin: 20px;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
   color: #333;
+  text-align: center;
 }
 
 nav {
   background-color: #003366;
   padding: 10px;
+  text-align: center;
 }
 
 nav a {
@@ -31,7 +33,33 @@ img {
   height: auto;
 }
 
+img.home-portrait {
+  width: 50%;
+  height: auto;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+.linkedin-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.linkedin-link a {
+  color: #4b0082;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .unique-layout {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
+  padding: 20px;
 }
