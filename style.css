@@ -10,7 +10,6 @@ body {
 nav {
   background-color: #003366;
   padding: 10px;
-  text-align: center;
 }
 
 nav a {
@@ -41,27 +40,17 @@ img {
 ul {
   list-style-position: inside;
   padding: 0;
-  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
 }
 
 ul li {
   margin: 10px 0;
-  text-align: center;
+  text-align: left;
 }
 
 a {
   display: inline-block;
   margin: 10px 0;
-}
-
-.linkedin-link {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.linkedin-link a {
-  color: #4b0082;
-  text-decoration: none;
-  font-weight: bold;
 }
