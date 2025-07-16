@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 section {
-  margin-bottom: 20px;
+  margin: 40px 20px;
 }
 
 img {
@@ -33,7 +33,7 @@ img {
   height: auto;
 }
 
-img.home-portrait {
+.home-portrait {
   width: 50%;
   height: auto;
   margin-top: 20px;
