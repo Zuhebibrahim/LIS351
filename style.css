@@ -46,33 +46,31 @@ h1, h2 {
   margin: 0 auto 30px;
 }
 
-.section-label,
-.engagement-label {
-  font-size: 1.8rem; 
-  font-weight: bold;
-  color: #007BFF;
-  text-align: left;
-  max-width: 800px;
-  margin: 40px auto 10px;
-}
-
-.flex-container {
+.flex-container,
+.engagement-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
   gap: 40px;
   margin: 20px auto;
   max-width: 1000px;
 }
 
-.flex-left {
-  flex: 1;
+.flex-left,
+.engagement-label {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #007BFF;
   text-align: left;
+  width: 250px;
 }
 
-.flex-right {
-  flex: 2;
+.flex-right,
+.engagement-content {
+  flex: 1;
   text-align: left;
+  max-width: 700px;
 }
 
 .about-card {
@@ -92,13 +90,13 @@ h1, h2 {
 
 ul {
   list-style-position: inside;
+  text-align: center;
   padding-left: 0;
-  text-align: left;
-  max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 li {
+  display: list-item;
   margin-bottom: 10px;
 }
 
