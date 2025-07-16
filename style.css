@@ -6,7 +6,7 @@
 
 body {
   font-family: Verdana, sans-serif;
-  background-color: #D3D3D3; 
+  background-color: #D3D3D3;
   color: #000000;
   text-align: center;
   padding: 20px;
@@ -39,11 +39,6 @@ h1, h2 {
   margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 .about-intro {
   font-size: 1.1rem;
   line-height: 1.6;
@@ -53,48 +48,36 @@ h2 {
 
 .section-label,
 .engagement-label {
-  font-size: 1.6rem;
+  font-size: 1.8rem; 
   font-weight: bold;
   color: #007BFF;
   text-align: left;
   max-width: 800px;
-  margin: 20px auto 10px;
+  margin: 40px auto 10px;
 }
 
-.engagement-content,
-.about-details {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-ul {
-  list-style-position: outside;
-  padding-left: 1.5em;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 800px;
-}
-
-ul li {
-  margin: 0.5em 0;
-  text-align: left;
-}
-
-.about-container {
+.flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
   gap: 40px;
-  margin-top: 30px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.flex-left {
+  flex: 1;
+  text-align: left;
+}
+
+.flex-right {
+  flex: 2;
+  text-align: left;
 }
 
 .about-card {
-  background-color: #808080; 
-  color: #FFFFFF; 
+  background-color: #808080;
+  color: #FFFFFF;
   padding: 20px;
   border-radius: 10px;
   max-width: 350px;
@@ -107,16 +90,21 @@ ul li {
   line-height: 1.5;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: left;
+  max-width: 800px;
   margin: 0 auto;
-  border-radius: 8px;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 .fixed-image {
-  width: 300px;
+  width: 100%;
+  max-width: 600px;
   height: auto;
   display: block;
   margin: 30px auto;
@@ -135,5 +123,5 @@ img {
 }
 
 .download-link:hover {
-  background-color: #808080; 
+  background-color: #808080;
 }
