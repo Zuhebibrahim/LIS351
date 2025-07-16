@@ -121,3 +121,17 @@ li {
 .download-link:hover {
   background-color: #808080;
 }
+
+.centered-list {
+  list-style: none;  
+  padding: 0;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.centered-list li {
+  display: inline-block;
+  margin: 0 15px;
+  text-align: left;
+  font-size: 1rem;
+}
