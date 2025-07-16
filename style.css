@@ -123,15 +123,15 @@ li {
 }
 
 .centered-list {
-  list-style: disc inside;  
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 0;
   margin: 20px auto;
-  text-align: center;
 }
 
 .centered-list li {
-  display: inline-block;
-  margin: 0 15px;
-  text-align: left;
-  font-size: 1rem;
+  list-style: disc inside;
+  margin: 0
+  padding: 0 5px;
 }
